@@ -97,13 +97,9 @@ button {
 
 .container {
     width: 100%;
-
     max-width: 1200px;
-
     margin: 0 auto;
-
     padding-left: 20px;
-
     padding-right: 20px;
 }
 
@@ -273,9 +269,9 @@ button {
 
     width: 100%;
 
-    height: 100vh;
+    height: 70vh;
 
-    min-height: 650px;
+    min-height: 450px;
 
     padding-top: 0;
 
@@ -285,45 +281,35 @@ button {
 
 .hero-section .carousel {
     width: 100%;
-
     height: 100%;
 }
 
 
 .hero-section .carousel-inner {
     width: 100%;
-
     height: 100%;
 }
 
 
 .hero-section .carousel-item {
     position: relative;
-
     width: 100%;
-
     height: 100%;
 }
 
 
 .hero-image {
     width: 100%;
-
     height: 100%;
-
     object-fit: cover;
-
     object-position: center;
 }
 
 
 .hero-overlay {
     position: absolute;
-
     inset: 0;
-
     z-index: 1;
-
     background:
         linear-gradient(
             90deg,
@@ -336,23 +322,15 @@ button {
 
 .hero-caption {
     position: absolute;
-
     top: 50%;
     left: 8%;
-
     right: auto;
     bottom: auto;
-
     transform: translateY(-50%);
-
     z-index: 3;
-
     width: min(700px, 80%);
-
     margin: 0;
-
     padding: 0;
-
     color: #ffffff;
 }
 
@@ -2006,7 +1984,42 @@ section {
     .profile-image-wrapper img {
         height: 500px;
     }
+}
 
+ /* =====================================================
+   SKILLS / OUTILS
+===================================================== */
+
+.skills-section {
+    padding: 100px 0;
+    background: var(--white);
+}
+
+.skills-section .section-header {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+
+/* =====================================================
+   SKILLS ICONS
+===================================================== */
+
+
+
+
+/* PNG */
+.skills-icons {
+    display: inline-flex !important;
+    gap: 1em;
+    margin-top: 1em;
+}
+.skills-icons img {
+    width: 65px !important;
+}
+
+
+@media (max-width: 991px) {
 
     /* Services */
 
